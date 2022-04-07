@@ -1,0 +1,162 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f5f7fa;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  background-color: #fff;
+  margin: 40px auto;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Content */
+.content {
+  margin: 50px 90px 50px 90px;
+  color: #000;
+}
+
+.bold-symbol {
+  font-weight: bold;
+  color: #000;
+}
+
+.orange {
+  color: #fb6d3a;
+}
+
+.header1 {
+  margin: 20px 0 20px 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+}
+
+.header3 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+.header4 {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.header5 {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.period {
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+}
+
+.project-link-margin {
+  margin-left: 10px;
+}
+
+.regular-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.projects-list {
+  padding-left: 17px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.duties {
+  padding-left: 17px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: #1e2939;
+  color: #fff;
+  padding: 40px 0px;
+  width: 370px;
+}
+
+.sidebar-content {
+  margin: 50px 0px 0px 40px;
+}
+
+.sidebar-titles {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 10px;
+}
+
+/* Contacts */
+.contact-type {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  margin-right: 5px;
+}
+
+.contact-link {
+  color: rgba(255, 255, 255, 0.5);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* Skills */
+.skills-list {
+  padding-left: 0px;
+}
+
+.skills-list li {
+  list-style-type: none;
+  /* Прячем исходные маркеры */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.skills-list li::before {
+  font-weight: bold;
+  color: #fb6d3a;
+  /* Цвет маркера */
+  content: '•';
+  /* Сам маркер */
+  padding-right: 10px;
+  /* Расстояние от маркера до текста */
+}
